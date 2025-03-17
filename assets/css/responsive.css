@@ -1,0 +1,387 @@
+@media screen and (max-width: 1580px) {
+    .section-content h1 {
+        margin-left: 0px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .sobre-content {
+        display: grid;
+        margin-top: 80px;
+    }
+
+    .sobre-content h2 {
+        font-size: 20px;
+    }
+
+    .sobre-text {
+        text-align: left;
+    }
+
+    .about-image {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #img-about {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-right: 0px;
+    }
+
+    #sobre-content-text {
+        margin-left: 0px;
+    }
+
+    
+    .skills-grid {
+        grid-template-columns: repeat(1, 40%);
+        margin-top: 80px;
+        gap: 40px;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .grid-content img {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .text-content h2 {
+        font-size: 25px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 23%);
+        margin-top: 120px;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        margin-right: 0px;
+        margin-left: 100px;
+        gap: 15px;
+    }
+
+    .card {
+        width: 15rem;
+    }
+
+    .card-text {
+        width: 13rem;
+        text-align: left;
+    }
+
+    .card-body p {
+        font-size: 13px;
+    }
+
+    .card-body h5 {
+        font-size: 17px;
+    }
+      
+    .portfolio-grid img {
+        height: 120px;
+        width: 15rem;
+    }
+
+    .contact-form {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        text-align: left;
+        margin-left: 150px;
+    }
+
+    .contact-form form {
+        width: 300px;
+    }
+      
+    .contact-form p {
+        text-align: left;
+    }
+      
+    #name {
+        height: 65px;
+    }
+      
+    #mail {
+        height: 65px;
+    }
+      
+    #subject {
+        height: 65px;
+    }
+      
+    #message {
+        height: 150px;
+    }
+
+    .col-lg-5 h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 37%);
+        margin-top: 80px;
+        justify-content: center;
+        align-items: left;
+        margin-right: 100px;
+        gap: 25px;
+    }
+
+    .card {
+        width: 17rem;
+    }
+
+    .card-text {
+        width: 15rem;
+        text-align: left;
+    }
+
+    .card-body p {
+        font-size: 13px;
+    }
+      
+    .portfolio-grid img {
+        height: 120px;
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section-content {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-content p {
+        font-size: 15px;
+    }
+
+    .section-content h1 {
+        margin-left: 0px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .home-background {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-background h2 {
+        font-size: 35px;
+    }
+
+    #home-subtitle h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sobre-content {
+        display: grid;
+        margin-top: 80px;
+    }
+
+    .sobre-content h2 {
+        font-size: 20px;
+    }
+
+    .sobre-text {
+        text-align: center;
+    }
+    
+    .about-image {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #img-about {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-right: 0px;
+    }
+
+    #sobre-content-text {
+        margin-left: 0px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(1, 30%);
+        margin-top: 80px;
+        gap: 40px;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+        margin-right: 0px;
+        margin-left: 80px;
+    }
+
+    .grid-content img {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .text-content h2 {
+        font-size: 18px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        margin-top: 80px;
+        justify-content: left;
+        align-items: left;
+        margin-right: 0px;
+        margin-left: 80px;
+        gap: 15px;
+    }
+
+    .card {
+        width: 17rem;
+    }
+
+    .card-text {
+        width: 15rem;
+        text-align: left;
+    }
+
+    .card-body p {
+        font-size: 13px;
+    }
+      
+    .portfolio-grid img {
+        height: 120px;
+        width: 17rem;
+    }
+
+    .contact {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact-form {
+        padding-top: 100px;
+        margin-left: 55px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+    }
+
+    .contact-form form {
+        width: auto;
+        margin-right: 10px;
+    }
+      
+    .contact-form p {
+        text-align: left;
+    }
+      
+    #name {
+        height: 65px;
+        width: 200px;
+    }
+      
+    #mail {
+        height: 65px;
+    }
+      
+    #subject {
+        height: 65px;
+    }
+      
+    #message {
+        height: 150px;
+    }
+
+    .col-lg-5 h3 {
+        font-size: 14px;
+    }
+
+    .col-lg-5 p {
+        font-size: 14px;
+    }
+
+@media screen and (max-width: 700px) {
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 65%);
+        margin-top: 80px;
+        justify-content: center;
+        align-items: left;
+        margin-right: 100px;
+        gap: 25px;
+    }
+    
+    .card {
+        width: 17rem;
+    }
+    
+    .card-text {
+        width: 15rem;
+        text-align: left;
+    }
+    
+    .card-body p {
+            font-size: 13px;
+    }
+          
+    .portfolio-grid img {
+        height: 120px;
+        width: 17rem;
+    }
+
+    .text-content h2 {
+        font-size: 17px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .col-lg-5 p {
+        font-size: 13px;
+    }
+
+    .text-content p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .sobre-text {
+        text-align: center;
+        max-width: 280px;
+    }
+}
+}
