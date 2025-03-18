@@ -389,4 +389,43 @@
         width: 160px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .contact-form {
+        display: grid;
+        padding-top: 50px;
+        padding-right: 30px;
+    }
+
+    .col-lg-5 p {
+        font-size: 11px;
+    }
+
+    .text-content p {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .contact-form form {
+        width: 180px;
+    }
+
+    #name {
+        height: 40px;
+        width: 180px;
+    }
+      
+    #mail {
+        height: 40px;
+    }
+      
+    #subject {
+        height: 40px;
+    }
+
+    #message {
+        height: 100px;
+    }
+    
+}
 }
