@@ -1,4 +1,4 @@
-@media screen and (max-width: 1580px) {
+@media (max-width: 1580px) {
     .section-content h1 {
         margin-left: 0px;
         padding-top: 100px;
@@ -136,7 +136,7 @@
     }
 }
 
-@media screen and (max-width: 1140px) {
+@media (max-width: 1140px) {
     .portfolio-grid {
         display: grid;
         grid-template-columns: repeat(2, 37%);
@@ -166,7 +166,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     .section-content {
         text-align: center;
         justify-content: center;
@@ -317,7 +317,7 @@
         font-size: 14px;
     }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .portfolio-grid {
         display: grid;
         grid-template-columns: repeat(1, 65%);
@@ -356,7 +356,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .col-lg-5 p {
         font-size: 12px;
     }
@@ -377,7 +377,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .contact-form {
         display: grid;
         padding-top: 50px;
