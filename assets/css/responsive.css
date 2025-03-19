@@ -183,24 +183,9 @@
         text-align: center;
     }
 
-    .home-background {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home-background h2 {
-        font-size: 35px;
-    }
-
-    #home-subtitle h3 {
-        font-size: 20px;
-        text-align: center;
-    }
-
     .sobre-content {
         display: grid;
-        margin-top: 80px;
+        margin-top: 0;
     }
 
     .sobre-content h2 {
