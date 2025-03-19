@@ -82,6 +82,9 @@
     display: block;
     position: fixed;
     margin-left: 20px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
   }
 
   .hamburguer.active .bar:nth-child(2) {
