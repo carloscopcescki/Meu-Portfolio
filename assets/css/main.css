@@ -64,12 +64,13 @@ p {
   font-weight: normal;
   color: white;
   background-color: black;
-  height: 50px;
+  height: 45px;
   border: none;
   padding: 10px 10px;
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .skills-grid {
@@ -147,9 +148,10 @@ margin-left: 30px;
 #img-about {
 width: 450px;
 height: 450px;
-border-radius: 50%;
+border-radius: 5%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin-left: 150px;
-margin-top: 100px;
+margin-top: 120px;
 }
 
 .portfolio-grid {

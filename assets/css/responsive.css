@@ -28,7 +28,7 @@
     #img-about {
         width: 300px;
         height: 300px;
-        border-radius: 50%;
+        border-radius: 5%;
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 10px;
@@ -206,8 +206,12 @@
     #img-about {
         width: 250px;
         height: 250px;
-        border-radius: 50%;
+        border-radius: 5%;
         margin-right: 0px;
+    }
+
+    #bt-curriculum {
+        margin-right: 5px;
     }
 
     #sobre-content-text {
