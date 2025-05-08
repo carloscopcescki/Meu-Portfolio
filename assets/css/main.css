@@ -32,6 +32,19 @@ p {
   font-size: 18px;
 }
 
+.section-content-about {
+  padding-top: 70px;
+}
+
+.section-content-about p {
+  font-size: 16px;
+}
+
+.section-content-about h2 {
+  font-family: 'Poppins';
+  color: black;
+}
+
 .section-content h1 {
   font-family: 'Montserrat';
   font-size: 38px;
@@ -39,7 +52,7 @@ p {
   text-align: left;
   margin-left: 160px;
   color: black;
-  padding-top: 100px;
+  padding-top: 50px;
   text-decoration: underline;
   text-underline-offset: 20px;
   text-decoration-color: rgb(99, 99, 99);
@@ -76,6 +89,10 @@ p {
   border-radius: 5px;
   margin-bottom: 20px;
   margin-right: 20px;
+}
+
+.section-content h1 {
+  padding-top: 100px;
 }
 
 .skills-grid {
