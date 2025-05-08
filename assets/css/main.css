@@ -34,14 +34,15 @@ p {
 
 .section-content h1 {
   font-family: 'Montserrat';
-  font-size: 40px;
+  font-size: 38px;
+  font-style: italic;
   text-align: left;
   margin-left: 160px;
   color: black;
   padding-top: 100px;
   text-decoration: underline;
   text-underline-offset: 20px;
-  text-decoration-color: rgb(87, 124, 247);
+  text-decoration-color: rgb(99, 99, 99);
 }
 
 .section-content p {
@@ -150,12 +151,12 @@ p {
 }
 
 #img-about {
-  width: 450px;
-  height: 450px;
-  border-radius: 5%;
+  width: 350px;
+  height: 400px;
+  border-radius: 1.5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 150px;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .portfolio-grid {
