@@ -140,7 +140,11 @@ p {
   display: flex;
   text-align: left;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+.sobre-text {
+  margin-top: 150px;
 }
 
 .sobre-content hr {
@@ -253,4 +257,55 @@ p {
 #social-icon-footer a {
   color: white;
   margin-right: 10px;
+}
+
+.experience-content {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.experience-content h2 {
+  font-size: 25px;
+}
+
+#experience-content-text {
+  max-width: 600px;
+}
+
+.experience-content h3 {
+  font-family: "Poppins";
+  color: black;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.experience-content h4 {
+  font-family: "Poppins";
+  color: black;
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.experience-content ol {
+  font-family: "Poppins";
+  color: rgb(85, 85, 85);
+  margin-left: 50px;
+  max-width: 600px;
+  font-size: 14.5px;
+  line-height: 1em;
+}
+
+.education {
+  margin-left: 150px;
+}
+
+.experience-section {
+  background-color: white;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -138,6 +138,17 @@
     .col-lg-5 h3 {
         font-size: 14px;
     }
+
+    .education {
+        margin-left: 30px;
+    }
+
+    .experience-section {
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 1140px) {
@@ -167,6 +178,25 @@
     .portfolio-grid img {
         height: 120px;
         width: 17rem;
+    }
+
+    .experience-content {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .education {
+        margin-left: 0px;
+        padding-top: 25px;
+    }
+
+    .experience-section {
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 0px;
     }
 }
 
@@ -325,6 +355,30 @@
         font-size: 14px;
     }
 
+    .experience-section ol {
+        font-size: 13px;
+    }
+
+    .experience-content h3 {
+        font-size: 17px;
+    }
+
+    .experience-content h4 {
+        font-size: 15px;
+    }
+
+    .education {
+        margin-left: 0px;
+    }
+
+    .experience-section {
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        max-width: 500px;
+    }
+
 @media (max-width: 700px) {
     .portfolio-grid {
         display: grid;
@@ -359,8 +413,16 @@
     }
 
     .text-content p {
-        font-size: 14px;
+        font-size: 15px;
         max-width: 200px;
+    }
+
+    .experience-section {
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        max-width: 400px;
     }
 }
 
@@ -370,7 +432,7 @@
     }
 
     .text-content p {
-        font-size: 12px;
+        font-size: 15px;
         width: 200px;
     }
 
