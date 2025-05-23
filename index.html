@@ -46,7 +46,7 @@
 
 <!-- Seção sobre mim -->
 <section id="sobre" class="sobre">
-    <div class="section-content-about">
+    <div class="section-content-about reveal">
         <h1></h1>
         <div class="sobre-content">
             <div class="sobre-text">
@@ -70,7 +70,7 @@
 
 <!-- Seção experiência -->
 <section id="experiencias" class="experiencias">
-    <div class="section-content">
+    <div class="section-content reveal">
         <h1>Experiências</h1>
         <div class="experience-content">
             <div class="work">
@@ -120,7 +120,7 @@
 
 <!-- Seção skills -->
 <section id="skills" class="skills">
-    <div class="section-content">
+    <div class="section-content reveal">
         <h1>Skills</h1>
         <div class="skills-grid">
             <div class="grid-content">
@@ -159,7 +159,7 @@
 <section id="portfolio" class="portfolio">
     <div class="section-content">
         <h1>Projetos</h1>
-        <div class="portfolio-grid">
+        <div class="portfolio-grid reveal">
             <div class="card">
                 <img class="card-img-top" src="./assets/img/ecosolar.png" alt="Card image cap">
                 <div class="card-body">
@@ -213,7 +213,7 @@
 <section id="contato" class="contato">
     <div class="section-content" id="section-contact">
         <h1>Contato</h1>
-        <div class="contact">
+        <div class="contact reveal">
             <div class="contact-form">
                 <div class="form-content">
                     <form action="https://api.web3forms.com/submit" method="post">
@@ -257,6 +257,19 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    });
+
+    const elements = document.querySelectorAll('.reveal');
+    elements.forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>
