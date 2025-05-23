@@ -9,6 +9,19 @@ html {
   scroll-padding-top: 10px;
 }
 
+/* Efeito inicial de ocultar */
+.reveal {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Quando aparecer na tela */
+.reveal.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 :root {
   --header-color: white;
   --border-header-color: rgb(241, 241, 241);
