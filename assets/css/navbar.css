@@ -6,6 +6,7 @@
   height: 80px;
   padding: 10px 70px;
   z-index: 1000;
+  background-color: var(--header-color);
 }
 
 .navmenu {
@@ -77,11 +78,15 @@
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
+  .navbar {
+    right: 0px;
+  }
+  
   .hamburguer {
     display: block;
     position: fixed;
-    margin-left: 20px;
+    margin-left: 5px;
     background-color: var(--header-color);
     padding: 8px;
     border-radius: 10px;
