@@ -6,7 +6,7 @@
 ## Sobre
 Portfólio responsivo desenvolvido para complementar o meu currículo, contendo projetos desenvolvidos, skills, histórico acadêmico e profissional.
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 
 [![HTML](https://img.shields.io/badge/HTML-f06529?style=for-the-badge&logo=html5&logoColor=white&labelColor=f06529)]()
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
