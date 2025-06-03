@@ -34,6 +34,8 @@ header {
   --navmenu-text: white;
   --bar-color: black;
   --bg-color: white;
+  --background-color: linear-gradient(90deg,rgba(232, 237, 250, 1) 34%, rgba(255, 255, 255, 1) 100%);
+  --background-color-odd: linear-gradient(90deg,rgba(232, 237, 250, 1) 34%, rgba(255, 255, 255, 1) 100%);
   --card-bg: white;
   --bg-color-odd: rgb(247, 247, 247);
   --p-color-text: rgb(99, 99, 99);
@@ -51,6 +53,8 @@ header {
   --bar-color: white;
   --bg-color: #242424;
   --bg-color-odd: black;
+  --background-color: linear-gradient(90deg,rgba(28, 28, 51, 1) 39%, rgba(7, 7, 15, 1) 70%, rgba(0, 0, 0, 1) 100%);
+  --background-color-odd: linear-gradient(90deg,rgba(28, 28, 51, 1) 39%, rgba(7, 7, 15, 1) 70%, rgba(0, 0, 0, 1) 100%);
   --card-bg: #242424;
   --card-title: white;
   --color-text: #f1f1f1;
@@ -73,13 +77,13 @@ section {
 }
 
 section:nth-child(even) {
-  background-color: var(--bg-color);
-  transition: background-color 0.3s, color 0.3s;
+  background: var(--background-color);
+  transition: background 0.3s, color 0.3s;
 }
 
 section:nth-child(odd) {
-  background-color: var(--bg-color-odd);
-  transition: background-color 0.3s, color 0.3s;
+  background: var(--background-color-odd);
+  transition: background 0.3s, color 0.3s;
 }
 
 a {
