@@ -24,7 +24,7 @@
         <ul class="navmenu">
             <li class="nav-item"><a href="#sobre" class="nav-link" id="nav-title">Carlos Alcarria</a></li>
             <li class="nav-item"><a href="#sobre" class="nav-link">Sobre mim</a></li>
-            <li class="nav-item"><a href="#experiencias" class="nav-link">Experiência</a></li>
+            <li class="nav-item"><a href="#experiencias" class="nav-link">Experiências</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#portfolio" class="nav-link">Projetos</a></li>
             <li class="nav-item"><a href="#contato" class="nav-link" id="last-item">Contato</a></li>
@@ -48,7 +48,10 @@
 <section id="sobre" class="sobre">
     <div class="section-content-about reveal">
         <h1></h1>
-        <div class="sobre-content">
+        <div class="sobre-content">  
+            <div class="about-image">
+                <img src="assets/img/foto.jpg" id="img-about">
+            </div>
             <div class="sobre-text">
                 <h2 class="sobre-title" id="typewriter"></h2>
                 <br>
@@ -56,13 +59,12 @@
                     no Centro Universitário Fundação Santo André.</p>
                 <p id="sobre-content-text">&nbsp;&nbsp;Possuo conhecimento em linguagem C e Python, além de linguagens de marcação front-end (HTML e CSS). Sou muito aberto a novos aprendizados e sempre em busca de experiências na área.</p>
                 <br>
-                <a id="bt-curriculum" href="assets/docs/Currículo.pdf" class="btn btn-dark" target="_blank" rel="noopener noreferrer">Currículo</a>
-                    <span id="social-icon"><a href="https://www.linkedin.com/in/carlos-alcarria/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" style="font-size:32px"></i></a></span>
-                    <span id="social-icon"><a href="https://github.com/carloscopcescki" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:32px"></i></a></span>
-                    <span id="social-icon"><a href="mailto:carlos.copcescki@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" style="font-size:32px"></i></a></span>
-            </div>
-            <div class="about-image">
-                <img src="assets/img/foto.jpg" id="img-about">
+                <div class="external-links">
+                    <a id="bt-curriculum" href="assets/docs/Currículo.pdf" class="btn btn-dark" target="_blank" rel="noopener noreferrer">Currículo</a>
+                        <span id="social-icon"><a href="https://www.linkedin.com/in/carlos-alcarria/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" style="font-size:32px"></i></a></span>
+                        <span id="social-icon"><a href="https://github.com/carloscopcescki" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:32px"></i></a></span>
+                        <span id="social-icon"><a href="mailto:carlos.copcescki@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" style="font-size:32px"></i></a></span>
+                </div>
             </div>
         </div>
     </div>
@@ -215,7 +217,7 @@
                         <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Assunto">
                         <textarea name="message" id="message" class="form-control mb-3" placeholder="Mensagem"></textarea>
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                        <button type="submit" value="send" class="btn btn-secondary btn-lg active" style="height: 50px; width: 150px; ; cursor: pointer;" id="button">Enviar</button>
+                        <button type="submit" value="send" class="btn btn-dark" style="height: 50px; width: 150px; ; cursor: pointer;" id="button">Enviar</button>
                         <br>
                         <br>
                     </form>

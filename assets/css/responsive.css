@@ -32,13 +32,13 @@
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 10px;
+        margin-bottom: -120px;
     }
 
     #sobre-content-text {
         margin-left: 0px;
     }
 
-    
     .skills-grid {
         grid-template-columns: repeat(1, 40%);
         margin-top: 80px;
@@ -234,7 +234,6 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-bottom: 25px;
     }
 
     #img-about {

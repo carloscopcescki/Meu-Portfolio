@@ -200,7 +200,7 @@ p {
 }
 
 .sobre-text {
-  margin-top: 150px;
+  margin-top: 185px;
 }
 
 .sobre-content h2 {
@@ -237,8 +237,14 @@ p {
   height: 400px;
   border-radius: 1.5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: 150px;
+  margin-right: 150px;
   margin-top: 150px;
+}
+
+.external-links {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .portfolio-grid {
